@@ -20,4 +20,5 @@ end
 def take_a_number(katz_deli, name)
   count = katz_deli.length
   puts "Welcome, #{name}. You are number #{count} in line."
+  katz_deli << name
 end
