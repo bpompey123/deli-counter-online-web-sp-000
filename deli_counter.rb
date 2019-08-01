@@ -13,6 +13,5 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     puts "The line is currently: " + other_deli.join(" ")
-
   end
 end
