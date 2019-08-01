@@ -12,7 +12,7 @@ def line(katz_deli)
   if other_deli.count == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently:  " + other_deli.join(" ")
+    puts "The line is currently: " + other_deli.join(" ")
 
   end
 end
