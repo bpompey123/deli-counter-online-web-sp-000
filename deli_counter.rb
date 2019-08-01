@@ -1,10 +1,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli == 0
-    puts "The line is currently empty."
-  elsif katz_deli >= 1
-    puts "p"
-  end
+  other_deli = []
+  katz_deli.each do |turn|
+    other_deli << turn
 
+  end
+  
 end
