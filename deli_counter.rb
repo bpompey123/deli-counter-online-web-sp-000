@@ -4,7 +4,7 @@ def line(katz_deli)
   other_deli = []
   counter = 1
   katz_deli.each do |turn|
-    other_deli << "#{counter}" "#{turn}"
+    other_deli << "#{counter}. ""#{turn}"
     counter += 1
 
   end
