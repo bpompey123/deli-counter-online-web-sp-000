@@ -19,6 +19,6 @@ end
 
 def take_a_number(katz_deli, name)
   count = 0
-  puts "Welcome #{name}. You are number #{katz_deli[count]} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli[count]} in line."
   count += 1
 end
