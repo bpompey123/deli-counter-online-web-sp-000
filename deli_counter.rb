@@ -6,5 +6,5 @@ def line(katz_deli)
   elsif katz_deli >= 1
     puts "p"
   end
-    
+
 end
